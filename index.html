@@ -16,6 +16,29 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+    <!-- <style>
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .iframe-container, .image-container {
+            flex: 1;
+            margin: 10px; /* Spacing between elements */
+            max-width: 100%;  /* Adjust percentage for desired width */
+        }
+        .iframe-container iframe, .image-container img {
+            width: auto;
+            height: auto;
+            display: block;
+        }
+        .inner {
+            padding-top: 20px;
+            width: 100%;
+            text-align: center; /* Center text for better appearance */
+        }
+    </style> -->
 	</head>
 	<body class="is-preload">
 
@@ -91,15 +114,44 @@
 
 							</div> -->
 
+								
+								
+								<!-- Two -->
+								<section id="two">
+									<div class="container">
+										<h3>Selected publications</h3>
+										<!-- <h5>Download by clicking on the image.</h5> -->
+										<p></p>
+										<div class="features">
+											<article>
+												<!-- we are using the pre-defined class 'image' to be in line with the images below -->
+												<!-- <iframe class="image" src="https://www.youtube.com/embed/ssiQzZLbyX0" title="AAS Journal Author Series: Caroline Haslebacher on 2025PSJ.....6..133H" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+            									<iframe width="300" height="500" class="image" src="https://www.youtube.com/embed/ssiQzZLbyX0" title="AAS Journal Author Series: Caroline Haslebacher on 2025PSJ.....6..133H" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+												<!-- not sure why width and height works with these values. I am completely confused -->
+										<div class="inner">
+											<h4> (2025) Galileo RegMaps with LineaMapper v1.1 and 2.0  </h4>
+											<p> We use my deep-learning framework LineaMapper (see below) to extract a lineament's length, width, and relative age through the number of crosscuttings by length. We conduct 
+												a statistical analysis on the southern leading hemisphere and compare characteristics 
+												of lineaments in chaos region to lineaments in ridged plains. Finally, we find evidence that only the most recently formed linear features remain discernible following the disruption 
+												by chaos terrain and hypothesize that younger features are stronger. 
+												 The <a href="https://data.mendeley.com/datasets/rjhsjrnxgv/2" target="_blank" rel="noopener noreferrer">code and data (shapefiles etc)</a> is open source.</p>
+											<p>Video produced in collaboration with Frank Timmes from the AAS Journal Author Series.</p>
+											<a href="https://iopscience.iop.org/article/10.3847/PSJ/add349" target="_blank" rel="noopener noreferrer"> <i>Haslebacher, C., Tejero, J. G., Prockter, L. M., Leonard, E. J., Rhoden, A. R., & Thomas, N. (2025). Length, Width, and Relative Age Analysis of Lineaments in the Galileo Regional Maps with LineaMapper. The Planetary Science Journal, 6(6), 133. https://doi.org/10.3847/PSJ/ADD349 </i> </a> 
+										</div>
+									</article>
+											<article>
+												<a href="https://arxiv.org/abs/2501.17463"  target="_blank" rel="noopener noreferrer" class="image"><img src="images/Duembgen_Haslebacher.png" alt="" /></a>
 
-
-						<!-- Two -->
-						<section id="two">
-							<div class="container">
-								<h3>Selected publications</h3>
-								<h5>Download by clicking on the image.</h5>
-								<p></p>
-								<div class="features">
+										<div class="inner">
+											<h4> (2025) New statistical framework for axial data  </h4>
+											<p>  How do we know if our observations of axial or directional data show a preferred direction? Sure, a Rose diagram can be a helpful tool, but when we want to 
+												assess the best fit to model predictions, we need a solid statistical analysis. This work led by Prof. Dr. Lutz Dümbgen helps with exactly that by providing the formalism for a 
+												generalized linear model (GLM) that uses a von Mises-Fisher distribution and local quadratic modeling. Stay tuned for a publication about a tidal stress model parameter search for Europa.
+												 <!-- The <a href="https://data.mendeley.com/datasets/rjhsjrnxgv/2" target="_blank" rel="noopener noreferrer">code and data (shapefiles etc)</a> is open source.</p> -->
+											<p></p>
+											<a href="https://arxiv.org/abs/2501.17463" target="_blank" rel="noopener noreferrer"> <i>Duembgen, L., & Haslebacher, C. (2025). Nonparametric Smoothing of Directional and Axial Data. Statistica Neerlandica, (in press). https://arxiv.org/abs/2501.17463v1 </i> </a> 
+										</div>
+									</article>
 									<article>
 	
 											<!-- <img src="images/graphical_abstract.png" width="500" > -->
@@ -107,7 +159,7 @@
 
 
 										<div class="inner">
-											<h4> (Publication) LineaMapper  </h4>
+											<h4> (2024) LineaMapper  </h4>
 											<p> In preparation of Europa Clipper, I trained a neural network for the extraction of lineaments in Galileo images of Europa's surface. More work is needed to make the output more robust, but LineaMapper v1.0 is a proof-of-concept for automated lineament mapping. The <a href="https://data.mendeley.com/datasets/nxnwj6hy4s/1" target="_blank" rel="noopener noreferrer">code</a> is open source.</p>
 											<p>Go to the PDF by clicking on the image.</p>
 											<a href="https://www.sciencedirect.com/science/article/pii/S0019103523002993" target="_blank" rel="noopener noreferrer"> <i>Haslebacher, C., Thomas, N., & Bickel, V. T. (2024). LineaMapper: A deep learning-powered tool for mapping linear surface features on Europa. Icarus, 410, 115722. https://doi.org/10.1016/j.icarus.2023.115722 </i> </a> 
@@ -116,7 +168,7 @@
 									<article>
 										<a href="https://www.aanda.org/articles/aa/pdf/2022/09/aa42493-21.pdf"  target="_blank" rel="noopener noreferrer" class="image"><img src="images/Sites_map.png" alt="" /></a>
 										<div class="inner">
-											<h4> (Publication) Ground-based observations through the lens of climate change </h4>
+											<h4> (2022) Ground-based observations through the lens of climate change </h4>
 											<p>For my master thesis with Prof. Dr. Brice-Olivier Demory, I investigated how climate change impacts ground-based observations. We found a strong increase in precipitable water vapor and temperature. Read the beautifully illustrated <a href="https://www.cnet.com/science/climate/features/how-our-view-of-the-ancient-universe-could-slowly-fade-away/" target="_blank" rel="noopener noreferrer">CNET article</a> about our findings.</p>
 											<p>Press release <a href="https://file-eu.clickdimensions.com/nexplorech-aemho/files/20220922_medienmitteilung_unibe_klimawandelastronomischebeobachtungen_def.pdf?m=9/22/2022%208:37:15%20AM&_cldee=oEKXl_G1dUSP81SNtZ7WwzHiB6Xt1mqmG_zuscg3uhtUFhv7HDL4K1GQrprHx7_5MRQ0N8gjURcCMPeRj2_Kcg&recipientid=contact-61783c7289ace911b80f005056addea5-f4ebaf4e446b40859becebad19d0dd0a&esid=c3eff378-513a-ed11-b82c-005056addea5" target="_blank" rel="noopener noreferrer" > University of Bern </a>, 
 												<a href="https://www.europlanet-society.org/how-global-warming-affects-astronomical-observations/" target="_blank" rel="noopener noreferrer" > Europlanet </a>.</p>
@@ -203,7 +255,9 @@
 												<td> <a href="https://svcp.jpl.nasa.gov/cgi/mtgabstract.cgi?series=planetary&meetingfile=../meetings/2025/ps2025051201.txt"  target="_blank" rel="noopener noreferrer"> Accelerating a Geological Lineament Analysis on Europa for the Europa Clipper Mission with Deep Learning</a>
 											 </td>
 												<td> SVCP Planetary Science, JPL, California, USA </td>
+											</tr>
 
+											<tr>
 											<td> 14. May 2025 </td>
 												<td> <a href="https://web.gps.caltech.edu/seminars/yly_seminar/website/index.html"  target="_blank" rel="noopener noreferrer"> Accelerating a Geological Lineament Analysis on Europa for the Europa Clipper Mission with Deep Learning</a>
 											 </td>
@@ -650,7 +704,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				<!-- Footer -->
 					<section id="footer">
 						<div class="container">
-							<p>Last updated by Caroline Haslebacher in May 2025.</p>
+							<p>Last updated by Caroline Haslebacher in August 2025.</p>
 							<ul class="copyright">
 								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
