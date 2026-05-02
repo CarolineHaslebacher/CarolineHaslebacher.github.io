@@ -54,6 +54,8 @@
 				</header>
 				<nav id="nav">
 					<ul>
+						<!-- In your nav <ul>, add: -->
+						<!-- <li><a href="CV_Haslebacher.pdf" target="_blank">CV</a></li> -->
 						<li><a href="#one" class="active">About Me</a></li>
 						<li><a href="#two" class="active">Selected Publications</a></li>
 						<li><a href="#talks" class="active">Talks and Seminars</a></li>
@@ -63,6 +65,15 @@
 				</nav>
 				<footer>
 					<ul class="icons">
+					<li>
+  <a href="CV_Haslebacher.pdf" 
+   target="_blank"
+   rel="noopener noreferrer"
+     title="View CV"
+     class="icon fa-file-alt">  <!-- uses Font Awesome, which your site already loads -->
+    <span class="label">CV</span>
+  </a>
+</li>
 						<!-- <li><a href="https://twitter.com/HasleCaro" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
 						<li><a href="https://www.linkedin.com/in/caroline-haslebacher-818702167/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
 						<li><a href="https://github.com/CarolineHaslebacher" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
@@ -101,6 +112,28 @@
 										of <a href="https://europa.nasa.gov/" target="_blank" rel="noopener noreferrer"> NASA's Europa Clipper </a>  mission launched in October 2024, 
 										I am working towards an algorithm that autonomously detects and analyses linear surface features in images of Europa. 
 										During my PhD and continuing, I train deep learning neural networks for mapping linear features on Europa in Galileo data.	</p>
+<!-- In your about/intro section, near your name and portrait -->
+ <a href="CV_Haslebacher.pdf" 
+   target="_blank"
+   rel="noopener noreferrer"
+   style="
+     display: inline-block;
+     margin-top: 1rem;
+     padding: 0.5rem 1.2rem;
+     border: 1.5px solid #222;
+     border-radius: 4px;
+     font-size: 0.85rem;
+     font-weight: 600;
+     color: #222;
+     text-decoration: none;
+     letter-spacing: 0.03em;
+     transition: background 0.15s, color 0.15s;
+   "
+   onmouseover="this.style.background='#222'; this.style.color='#fff'"
+   onmouseout="this.style.background='transparent'; this.style.color='#222'"
+>
+  View CV ↗
+</a>
 
 										<!-- <iframe src='https://europa.nasa.gov/gltf_embed/191/eis' width='100%' height='450px' frameborder='0' ></iframe> -->
 									<br> <!-- adds a line break between paragraphs -->
